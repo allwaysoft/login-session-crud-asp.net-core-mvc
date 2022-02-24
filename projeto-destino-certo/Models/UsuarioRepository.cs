@@ -7,7 +7,7 @@ namespace projeto_destino_certo.Models
     public class UsuarioRepository
     {   
         /*ENDEREÇO DE CONEXÃO*/
-        private const  string enderecoConexao = "Database=destinocerto; Datasource=localhost; Username=root;";
+        private const  string enderecoConexao = "server=localhost;user=root;database=destinocerto;port=3306;password=root";
 
     
     /**************************************USUÁRIOS**************************************************/
